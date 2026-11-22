@@ -1,34 +1,18 @@
-#E-Commerce Sales Analysis & Dashboard
+# E-Commerce Sales Analysis Dashboard
 
-Bu layihə, elektron ticarət (E-Commerce) satış məlumatlarının analiz edilməsi, SQL sorğuları vasitəsilə datanın təmizlənməsi və Power Bi mühitində vizuallaşdırılması məqsədilə hazırlanmışdır.
+An end-to-end analysis of e-commerce sales data. The data is structured and cleaned with SQL (PostgreSQL) and visualized in an interactive Power BI dashboard.
 
----
+## Business questions
+- How do sales split by payment type (card vs. cash)?
+- Which products sell the most?
+- What is the total sales amount?
 
- Layihə Haqqında
-Layihə çərçivəsində müvafiq biznes suallarına cavab tapmaq üçün fərqli məhsul kateqoriyalarının satış dinamikası və istifadəçilərin ödəniş vərdişləri analiz olunmuşdur.
+## Tools
+- PostgreSQL for building and cleaning the data
+- Power BI Desktop for the dashboard
+- Git and GitHub for version control
 
- İstifadə Olunan Texnologiyalar:
-* **Verilənlər Bazası:** SQL (PostgreSQL)
-* **Biznes Analitikası (BI):** Power BI Desktop
-* **Versiya Kontrolü:** Git & GitHub
-
----
-
-
-**Satış Dashboard-u**
-
-Layihənin əsas vizual nəticəsi (Ödəniş üsullarına görə məhsul satışının analizi):
-
+## Dashboard
 ![Sales Analysis Dashboard](Sales-Analysis.png)
 
-
-
----
-
-**SQL Analiz Mərhələsi**
-Data strukturlarını qurmaq və təmizləmək üçün yazılmış SQL kodları repozitoriyadakı `database_setup.sql` (və ya sənin SQL faylının adı) faylında yer alır. 
-
- Əsas Analiz Olunan Göstəricilər:
-* Ödəniş növlərinə (Kart və Nağd) görə satış payı
-* Ən çox satılan top məhsullar (MacBook Air M3, iPhone 15 Pro, Lenovo ThinkPad və s.)
-* Ümumi məbləğ (Sum of Total Amount) generasiyası
+The dashboard shows product sales by payment method, the total sales amount, and the top-selling products (for example MacBook Air M3, iPhone 15 Pro, and Lenovo ThinkPad).
